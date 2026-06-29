@@ -1,0 +1,147 @@
+:root{
+    --wine:#6b1f2b;
+    --wine-dark:#3f1018;
+    --cream:#fff6e8;
+    --soft:#f3dfc7;
+    --brown:#7b4b32;
+    --text:#2b1d17;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:var(--cream);
+    color:var(--text);
+}
+
+.navbar{
+    background:rgba(255,246,232,0.95);
+    box-shadow:0 4px 18px rgba(0,0,0,0.08);
+}
+
+.navbar-brand{
+    color:var(--wine)!important;
+    font-weight:800;
+    letter-spacing:.5px;
+}
+
+.nav-link{
+    color:var(--text)!important;
+    font-weight:600;
+}
+
+.nav-link:hover{
+    color:var(--wine)!important;
+}
+
+.nav-logo{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+    background:#111;
+    border-radius:50%;
+    padding:5px;
+}
+
+.btn-wine{
+    background:var(--wine);
+    color:white;
+    border:none;
+    border-radius:30px;
+    padding:10px 22px;
+}
+
+.btn-wine:hover{
+    background:var(--wine-dark);
+    color:white;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(rgba(255,246,232,.90), rgba(255,246,232,.90)),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1600");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:clamp(2.4rem, 6vw, 5rem);
+    font-weight:900;
+    color:var(--wine-dark);
+}
+
+.hero-card{
+    background:white;
+    border-radius:30px;
+    padding:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.section-title{
+    color:var(--wine);
+    font-weight:900;
+}
+
+.card{
+    border:none;
+    border-radius:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+.menu-card img{
+    height:210px;
+    object-fit:cover;
+}
+
+.price{
+    color:var(--wine);
+    font-weight:800;
+}
+
+.badge-wine{
+    background:var(--wine);
+    color:white;
+}
+
+.form-control, .form-select{
+    border-radius:15px;
+    padding:12px;
+}
+
+.footer{
+    background:var(--wine-dark);
+    color:white;
+    padding:25px 0;
+    margin-top:60px;
+}
+
+.feature-box{
+    background:white;
+    border-radius:20px;
+    padding:24px;
+    height:100%;
+    box-shadow:0 8px 20px rgba(0,0,0,.07);
+}
+
+.contact-box{
+    background:white;
+    border-left:8px solid var(--wine);
+    border-radius:20px;
+    padding:25px;
+}
+
+.goodman-hero{
+    background:
+    linear-gradient(rgba(255,246,232,.82), rgba(255,246,232,.88)),
+    url("banner.jpeg");
+    background-size:cover;
+    background-position:center;
+}
